@@ -59,7 +59,7 @@ Measures of Central Tendency of Temperatures for December and June in Oahu, Hawa
   -	3rd quartile 75% of all data is below 0.15 inches in December and 0.12 inches in June.
 
 <p align="center">
-<img src="Graphics/DecRain.PNG" width="16%" height="16%"> <img src="Graphics/JuneRain.PNG" width="16.3%" height="16.3%">
+<img src="img/dec_rain.png" width="16%" height="16%"> <img src="img/june_rain.png" width="16.5%" height="16.3%">
 </p>
 <p align="center">
 Measures of Central Tendency of Rainfall for December and June in Oahu, Hawaii. 
