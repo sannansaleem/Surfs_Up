@@ -36,7 +36,7 @@ The analysis focuses on the temperature and rainfall from six different weather 
   -	3rd quartile 75% of all data is below 74 °F in December and 77 °F in June.
 
 <p align="center">
-<img src="resources/img/dec_temps.png" width="17%" height="17%"> <img src="resources/img/june_temps.png" width="16%" height="16%">
+<img src="img/dec_temps.png" width="20%" height="20%"> <img src="img/june_temps.png" width="16.5%" height="20%">
 </p>
 <p align="center">
 Measures of Central Tendency of Temperatures for December and June in Oahu, Hawaii. 
