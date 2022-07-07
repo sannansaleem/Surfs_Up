@@ -2,7 +2,7 @@
 
 ## Project Overview 
 ### Purpose
-To open a *Surf’n’Shake* shop, a shop that sells surf boards and ice cream in Oahu, Hawaii, the weather has to be in our favor most days of a year. A perfect spot for the shop is a place with the right balance of warm temperatures, sunny days throughout the year and just enough rain to keep the vegetation green. If those criteria are met, we can be confident that new shop will rise and shine. To ensure that we will choose the right spot, I want to make some data-driven decisions; therefore, this analysis focuses on the temperature and rainfall for the past 7 years from 2010 to 2017, specifically for June and December, the two months that are apart enough to ensure that we have a good condition year-round. In order to have enough data, I am analyzing data from six weather stations in Oahu, Hawaii. The analysis consists of two parts:
+In order to launch a new *Surf’n’Shake* shop, that sells surf boards and ice cream in Oahu, Hawaii, the weather has to be favorable most days of a year in order to be able to run a profitable business. A perfect spot for the shop is a place with the right balance of climates throughout the year. If that criteria are met, we can be confident that new shop will be able to succeed in the long run. To ensure that the right spot is chosen, data-driven decisions have to be made; therefore, this analysis focuses on the temperature and then additional queiries were made to guage rainfall for the past 7 years (2010 to 2017), specifically for June and December. In order to have enough data, I am analyzing data from six weather stations in Oahu, Hawaii. The analysis consists of two parts:
 
 - Temperature analysis for June and December from 2010 to 2017.
 - Rainfall analysis for June and December from 2010 to 2017.
@@ -72,44 +72,30 @@ Descriptive statistics from the queries above provide quick results and tells us
 
 ### Temperatures for June and December 
 
-From the temperature report we can see that there is not much difference in the weather in June and December, indicating mild and steady temperatures year-round. Mean and median – also known as 2nd quartile - are closely together, meaning that distribution of the data is not spread out. To find out protentional outliers and other trends **the box and whiskers chart** can tell us more about that.
+From the temperature report we can see that there is not much difference in the weather in June and December, indicating a steady temperature year-round. Mean and median are close together, meaning that distribution of the data is not spread out. To find out protentional outliers and other trends **the box and whiskers chart** can tell us more about that.
 
 <p align="center">
-<img src="Graphics/BoxAndWhiskersTemps.PNG" width="40%" height="40%"> 
+<img src="img/temp_box.png" width="40%" height="40%"> 
 </p>
 <p align="center">
 Box and Whiskers Plot of Temperatures for December and June in Oahu, Hawaii. 
 </p>
 
-From the graph we can see that there are just a few outliers. There are more outliers below the lower boundary in December, however the minimum temperature is 56 °F. 
+From the graph we can see that there are just a few outliers. There are more outliers below the lower boundary in December, however the minimum temperature is approximately 55 °F. 
 
 ### Rainfall for June and December
 
 The first difference that we notice is the max rainfall in June and December (4.43 and 6.42 inches respectively) and in both cases, highly above the mean. Also, standard deviation is high, mean and median or 2nd quartile are far apart, meaning that distribution of the data is highly spread out. That indicates the presence of extreme values in the dataset. The easiest way to determine outliers is to plot **box and whiskers chart**.
 
 <p align="center">
-<img src="Graphics/BoxAndWhiskersRain.PNG" width="40%" height="40%"> 
+<img src="img/rain_box.png" width="40%" height="40%"> 
 </p>
 <p align="center">
 Box and Whiskers Plot of Rainfall for December and June in Oahu, Hawaii. 
 </p>
 
-From the chart we can see that there are quite a few outliers, to be exact 183 in June and 205 in December ([calculations]( SurfsUp_Challenge.ipynb)). Those outliers have enough power to impact the mean, yet 183 and 205 data points out of 1574 and 1405 respectively is not that much. That indicates isolated extreme rainfall. 
-This analysis capture weather data for 7 years from 2010 to 2017. To see the difference year to year I provided another graph of **average rainfall grouped by year**. 
+From the chart we can see that there are quite a few outliers. Those outliers have enough power to impact the mean, yet the nuber of data points found as outliers as compared to the total number of data points (1574 and 1405 respectively) is not that much. This indicates isolated extreme rainfall. 
+This analysis capture weather data for 7 years from 2010 to 2017. 
 
-<p align="center">
-<img src="Graphics/AvrgRainJneAndDec.PNG" width="45%" height="45%"> 
-</p>
-<p align="center">
-Average Rainfall for December and June per year in Oahu, Hawaii. 
-</p>
 
-From the graph above we can see there was a lot of rainfall in December 2010 with significant drop in the following years. The rainfall became pretty steady in the following years with simiral quantaties in both months.
-
-## Other useful articles
-- [Extract](https://stackoverflow.com/questions/11616260/how-to-get-all-objects-with-a-date-that-fall-in-a-specific-month-sqlalchemy/31641488)
-
-- [sqlite viewer](https://inloop.github.io/sqlite-viewer/)
-
-- [matplotlib styles](https://python-graph-gallery.com/199-matplotlib-style-sheets/)
 
